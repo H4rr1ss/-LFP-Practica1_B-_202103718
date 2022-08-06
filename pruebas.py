@@ -21,3 +21,6 @@ print("para subir codigo a GitHub(cambios de código en general)")
 
 
 print("Realizar commit")
+
+#-----Subida de archivos
+# git commit -m "mensaje con el que identifique los cambios realizados"
