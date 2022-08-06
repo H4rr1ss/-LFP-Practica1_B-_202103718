@@ -1,3 +1,8 @@
+#Para organizar bien las ramas y ser más ordenado al hacer codigo
+#Rama main
+#Rama develop
+#rama write code
+
 print("Comandos importantes para GitHub")
 
 #-----Creará una nueva rama (-b es cuando se crea rama)
@@ -19,8 +24,25 @@ print("para subir codigo a GitHub(cambios de código en general)")
 # git add .
 # git add archivo_especifico.py
 
-
-print("Realizar commit")
-
 #-----Subida de archivos
 # git commit -m "mensaje con el que identifique los cambios realizados"
+
+#-----Subir a repositorio remoto todo lo guardado en esa rama
+# git push origin nombre_rama
+
+
+
+#-----Pasar el codigo de "rama = writeCode" a "rama = develop"
+# 1. me cambio a rama develop
+# 2. comando "git pull origin rama_writeCode"(cargó localmente)
+    # llevar cambios de la rama writeCode a la rama develop
+# 3. subir cambios locales a repositorio remoto
+
+
+print("pasar develop a rama main")
+
+# 1. Creo una rama realese-1.0.0
+# 2. Mando rama realese-1.0.0 a repositorio remoto
+# 3. voy a mi rama main
+# 4. git pull origin realese-1.0.0
+# 5. git push origin main
