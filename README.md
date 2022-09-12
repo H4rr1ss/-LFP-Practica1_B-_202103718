@@ -1,3 +1,3 @@
-# [LFP]Practica1_B+_202103718
+# Versionamiento de GitHub
 
-Practica de GitHub y control de ramas  
+Control de ramas  
