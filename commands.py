@@ -40,9 +40,9 @@ print("para subir codigo a GitHub(cambios de código en general)")
 
 
 print("pasar develop a rama main")
-
-# 1. Creo una rama realese-1.0.0
-# 2. Mando rama realese-1.0.0 a repositorio remoto
-# 3. voy a mi rama main
-# 4. git pull origin realese-1.0.0
-# 5. git push origin main
+# 1. git push a rama develop
+# 2. Creo una rama realese-1.0.0 en rama develop
+# 3. Mando rama realese-1.0.0 a repositorio remoto
+# 4. voy a mi rama main
+# 5. git pull origin realese-1.0.0
+# 6. git push origin main
